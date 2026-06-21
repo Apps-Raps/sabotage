@@ -1,0 +1,134 @@
+{
+  "$schema": "./palette.schema.json",
+  "meta": {
+    "name": "Sabotage",
+    "author": "nosso.top",
+    "version": "1.0.0",
+    "homepage": "https://sabotage.nosso.top",
+    "license": "MIT"
+  },
+  "variants": {
+    "dark": {
+      "appearance": "dark",
+      "ui": {
+        "bg": "#0D0E11",
+        "bgAlt": "#1A1C24",
+        "bgHl": "#22242E",
+        "fg": "#E8E8EA",
+        "fgDim": "#A8A9B0",
+        "comment": "#5A5B63",
+        "selection": "#2A3A52",
+        "cursor": "#dd5040",
+        "border": "#2A2C36",
+        "accent": "#dd5040"
+      },
+      "ansi": {
+        "black": "#1A1C24",
+        "red": "#FF5555",
+        "green": "#2ECC71",
+        "yellow": "#FFD166",
+        "blue": "#5B8DEF",
+        "magenta": "#8B5CF6",
+        "cyan": "#4DD9FF",
+        "white": "#E8E8EA",
+        "brightBlack": "#5A5B63",
+        "brightRed": "#FF6E6E",
+        "brightGreen": "#54E08C",
+        "brightYellow": "#FFDD8A",
+        "brightBlue": "#7FAAF5",
+        "brightMagenta": "#A78BFA",
+        "brightCyan": "#7AE4FF",
+        "brightWhite": "#FFFFFF"
+      },
+      "syntax": {
+        "keyword": "#dd5040",
+        "string": "#2ECC71",
+        "number": "#FF8A44",
+        "function": "#4DD9FF",
+        "variable": "#E8E8EA",
+        "type": "#FFD166",
+        "constant": "#FF8A44",
+        "comment": "#5A5B63",
+        "operator": "#FF69B4",
+        "punctuation": "#A8A9B0",
+        "tag": "#dd5040",
+        "attribute": "#FFD166",
+        "property": "#4DD9FF",
+        "class": "#FFD166",
+        "regex": "#FF69B4",
+        "escape": "#FF8A44",
+        "invalid": "#FF5555"
+      },
+      "extra": {
+        "orange": "#FF8A44",
+        "pink": "#FF69B4",
+        "purple": "#8B5CF6",
+        "error": "#FF5555",
+        "warning": "#FFD166",
+        "info": "#4DD9FF",
+        "success": "#2ECC71"
+      }
+    },
+    "light": {
+      "appearance": "light",
+      "ui": {
+        "bg": "#FBFBFD",
+        "bgAlt": "#F1F2F6",
+        "bgHl": "#E7E8EE",
+        "fg": "#1A1C24",
+        "fgDim": "#5A5B63",
+        "comment": "#9395A0",
+        "selection": "#CFE0F5",
+        "cursor": "#dd5040",
+        "border": "#DDDEE6",
+        "accent": "#dd5040"
+      },
+      "ansi": {
+        "black": "#1A1C24",
+        "red": "#D32F2F",
+        "green": "#1A9E5A",
+        "yellow": "#B7791F",
+        "blue": "#2563C9",
+        "magenta": "#7C3AED",
+        "cyan": "#0E7490",
+        "white": "#C8CAD2",
+        "brightBlack": "#5A5B63",
+        "brightRed": "#E14B4B",
+        "brightGreen": "#1FB368",
+        "brightYellow": "#CC8F1E",
+        "brightBlue": "#3B77E0",
+        "brightMagenta": "#8B5CF6",
+        "brightCyan": "#1395B8",
+        "brightWhite": "#FBFBFD"
+      },
+      "syntax": {
+        "keyword": "#C8432F",
+        "string": "#1A9E5A",
+        "number": "#C2410C",
+        "function": "#0E7490",
+        "variable": "#1A1C24",
+        "type": "#B7791F",
+        "constant": "#C2410C",
+        "comment": "#9395A0",
+        "operator": "#C026A0",
+        "punctuation": "#5A5B63",
+        "tag": "#C8432F",
+        "attribute": "#B7791F",
+        "property": "#0E7490",
+        "class": "#B7791F",
+        "regex": "#C026A0",
+        "escape": "#C2410C",
+        "invalid": "#D32F2F"
+      },
+      "extra": {
+        "orange": "#C2410C",
+        "pink": "#C026A0",
+        "purple": "#7C3AED",
+        "error": "#D32F2F",
+        "warning": "#B7791F",
+        "info": "#0E7490",
+        "success": "#1A9E5A"
+      }
+    }
+  }
+}

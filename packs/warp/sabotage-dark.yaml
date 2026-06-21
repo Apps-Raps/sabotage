@@ -1,0 +1,27 @@
+# Sabotage — Dark
+# Sabotage theme. Copy to ~/.warp/themes/ and select it in Warp settings.
+name: Sabotage Dark
+accent: "#dd5040"
+cursor: "#dd5040"
+background: "#0d0e11"
+foreground: "#e8e8ea"
+details: darker
+terminal_colors:
+  normal:
+    black: "#1a1c24"
+    red: "#ff5555"
+    green: "#2ecc71"
+    yellow: "#ffd166"
+    blue: "#5b8def"
+    magenta: "#8b5cf6"
+    cyan: "#4dd9ff"
+    white: "#e8e8ea"
+  bright:
+    black: "#5a5b63"
+    red: "#ff6e6e"
+    green: "#54e08c"
+    yellow: "#ffdd8a"
+    blue: "#7faaf5"
+    magenta: "#a78bfa"
+    cyan: "#7ae4ff"
+    white: "#ffffff"

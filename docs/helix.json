@@ -1,0 +1,4 @@
+{
+  "en": "## Installation\n1. Download `sabotage-dark.toml` to `~/.config/helix/themes/`.\n2. In `~/.config/helix/config.toml`:\n```toml\ntheme = \"sabotage-dark\"\n```",
+  "pt": "## Instalação\n1. Baixe `sabotage-dark.toml` para `~/.config/helix/themes/`.\n2. Em `~/.config/helix/config.toml`:\n```toml\ntheme = \"sabotage-dark\"\n```"
+}

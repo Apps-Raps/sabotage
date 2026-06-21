@@ -1,0 +1,124 @@
+{
+  "name": "Sabotage Light",
+  "author": "nosso.top",
+  "variables": {},
+  "globals": {
+    "background": "#fbfbfd",
+    "foreground": "#1a1c24",
+    "caret": "#dd5040",
+    "block_caret": "#dd5040",
+    "line_highlight": "#e7e8ee",
+    "selection": "#cfe0f5",
+    "selection_border": "#dd5040",
+    "inactive_selection": "#e7e8ee",
+    "misspelling": "#d32f2f",
+    "gutter": "#f1f2f6",
+    "gutter_foreground": "#9395a0",
+    "invisibles": "#dddee6",
+    "guide": "#dddee6",
+    "active_guide": "#9395a0",
+    "find_highlight": "#dd5040",
+    "find_highlight_foreground": "#fbfbfd",
+    "accent": "#dd5040"
+  },
+  "rules": [
+    {
+      "scope": "comment",
+      "foreground": "#9395a0",
+      "font_style": "italic"
+    },
+    {
+      "scope": "string",
+      "foreground": "#1a9e5a"
+    },
+    {
+      "scope": "string.regexp",
+      "foreground": "#c026a0"
+    },
+    {
+      "scope": "constant.character.escape",
+      "foreground": "#c2410c"
+    },
+    {
+      "scope": "constant.numeric",
+      "foreground": "#c2410c"
+    },
+    {
+      "scope": "constant.language",
+      "foreground": "#c2410c"
+    },
+    {
+      "scope": "constant.other",
+      "foreground": "#c2410c"
+    },
+    {
+      "scope": "keyword",
+      "foreground": "#c8432f"
+    },
+    {
+      "scope": "keyword.operator",
+      "foreground": "#c026a0"
+    },
+    {
+      "scope": "storage",
+      "foreground": "#c8432f"
+    },
+    {
+      "scope": "storage.type",
+      "foreground": "#b7791f"
+    },
+    {
+      "scope": "variable",
+      "foreground": "#1a1c24"
+    },
+    {
+      "scope": "variable.parameter",
+      "foreground": "#1a1c24",
+      "font_style": "italic"
+    },
+    {
+      "scope": "variable.function",
+      "foreground": "#0e7490"
+    },
+    {
+      "scope": "entity.name.function",
+      "foreground": "#0e7490"
+    },
+    {
+      "scope": "support.function",
+      "foreground": "#0e7490"
+    },
+    {
+      "scope": "entity.name.class",
+      "foreground": "#b7791f"
+    },
+    {
+      "scope": "entity.name.type",
+      "foreground": "#b7791f"
+    },
+    {
+      "scope": "support.type",
+      "foreground": "#b7791f"
+    },
+    {
+      "scope": "support.class",
+      "foreground": "#b7791f"
+    },
+    {
+      "scope": "entity.name.tag",
+      "foreground": "#c8432f"
+    },
+    {
+      "scope": "entity.other.attribute-name",
+      "foreground": "#b7791f"
+    },
+    {
+      "scope": "punctuation",
+      "foreground": "#5a5b63"
+    },
+    {
+      "scope": "invalid",
+      "foreground": "#d32f2f"
+    }
+  ]
+}

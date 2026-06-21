@@ -1,0 +1,26 @@
+# Sabotage — Light
+# Sabotage theme. Copy to $XDG_CONFIG_HOME/ghostty/themes/Sabotage-light
+# then set: theme = Sabotage-light
+
+background = #fbfbfd
+foreground = #1a1c24
+cursor-color = #dd5040
+cursor-text = #fbfbfd
+selection-background = #cfe0f5
+selection-foreground = #1a1c24
+palette = 0=#1a1c24
+palette = 1=#d32f2f
+palette = 2=#1a9e5a
+palette = 3=#b7791f
+palette = 4=#2563c9
+palette = 5=#7c3aed
+palette = 6=#0e7490
+palette = 7=#c8cad2
+palette = 8=#5a5b63
+palette = 9=#e14b4b
+palette = 10=#1fb368
+palette = 11=#cc8f1e
+palette = 12=#3b77e0
+palette = 13=#8b5cf6
+palette = 14=#1395b8
+palette = 15=#fbfbfd

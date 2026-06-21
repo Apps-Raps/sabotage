@@ -1,0 +1,4 @@
+{
+  "en": "## Installation\nSingle file with both GUI (truecolor) and 256-color terminal support.\n\n1. Download `sabotage-dark.vim`.\n2. Copy it to `~/.vim/colors/` (Vim) or `~/.config/nvim/colors/` (Neovim).\n3. Add to your config:\n```vim\nset termguicolors\ncolorscheme sabotage_dark\n```",
+  "pt": "## Instalação\nArquivo único com suporte a GUI (truecolor) e terminais de 256 cores.\n\n1. Baixe `sabotage-dark.vim`.\n2. Copie para `~/.vim/colors/` (Vim) ou `~/.config/nvim/colors/` (Neovim).\n3. Adicione à sua config:\n```vim\nset termguicolors\ncolorscheme sabotage_dark\n```"
+}

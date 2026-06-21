@@ -1,0 +1,4 @@
+{
+  "en": "## Installation\n1. Download `sabotage-dark.js`.\n2. Open `~/.hyper.js` and merge the exported `config` color keys (foregroundColor, backgroundColor, colors, …) into your own `config` object.\n3. Save — Hyper reloads automatically.",
+  "pt": "## Instalação\n1. Baixe `sabotage-dark.js`.\n2. Abra `~/.hyper.js` e mescle as chaves de cor do `config` exportado (foregroundColor, backgroundColor, colors, …) no seu objeto `config`.\n3. Salve — o Hyper recarrega sozinho."
+}

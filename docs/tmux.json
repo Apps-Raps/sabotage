@@ -1,0 +1,4 @@
+{
+  "en": "## Installation\n1. Download `sabotage-dark.conf` to `~/.tmux/`.\n2. Add to `~/.tmux.conf`:\n```tmux\nsource-file ~/.tmux/sabotage-dark.conf\n```\n3. Reload with `tmux source-file ~/.tmux.conf`.",
+  "pt": "## Instalação\n1. Baixe `sabotage-dark.conf` para `~/.tmux/`.\n2. Adicione ao `~/.tmux.conf`:\n```tmux\nsource-file ~/.tmux/sabotage-dark.conf\n```\n3. Recarregue com `tmux source-file ~/.tmux.conf`."
+}

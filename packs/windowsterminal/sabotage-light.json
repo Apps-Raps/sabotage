@@ -1,0 +1,23 @@
+{
+    "name": "Sabotage Light",
+    "background": "#fbfbfd",
+    "foreground": "#1a1c24",
+    "cursorColor": "#dd5040",
+    "selectionBackground": "#cfe0f5",
+    "black": "#1a1c24",
+    "red": "#d32f2f",
+    "green": "#1a9e5a",
+    "yellow": "#b7791f",
+    "blue": "#2563c9",
+    "purple": "#7c3aed",
+    "cyan": "#0e7490",
+    "white": "#c8cad2",
+    "brightBlack": "#5a5b63",
+    "brightRed": "#e14b4b",
+    "brightGreen": "#1fb368",
+    "brightYellow": "#cc8f1e",
+    "brightBlue": "#3b77e0",
+    "brightPurple": "#8b5cf6",
+    "brightCyan": "#1395b8",
+    "brightWhite": "#fbfbfd"
+}

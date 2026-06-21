@@ -1,0 +1,4 @@
+{
+  "en": "## Installation\n1. Download `sabotage-dark.toml` to `~/.config/alacritty/`.\n2. Import it from your `alacritty.toml`:\n```toml\n[general]\nimport = [\"~/.config/alacritty/sabotage-dark.toml\"]\n```",
+  "pt": "## Instalação\n1. Baixe `sabotage-dark.toml` para `~/.config/alacritty/`.\n2. Importe a partir do seu `alacritty.toml`:\n```toml\n[general]\nimport = [\"~/.config/alacritty/sabotage-dark.toml\"]\n```"
+}

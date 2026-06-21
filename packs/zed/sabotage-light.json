@@ -1,0 +1,140 @@
+{
+  "$schema": "https://zed.dev/schema/themes/v0.2.0.json",
+  "name": "Sabotage — Sabotage (light)",
+  "author": "nosso.top",
+  "themes": [
+    {
+      "name": "Sabotage Light",
+      "appearance": "light",
+      "style": {
+        "background": "#fbfbfd",
+        "border": "#dddee6",
+        "border.variant": "#dddee6",
+        "elevated_surface.background": "#f1f2f6",
+        "surface.background": "#f1f2f6",
+        "element.background": "#f1f2f6",
+        "element.hover": "#e7e8ee",
+        "element.selected": "#e7e8ee",
+        "ghost_element.hover": "#e7e8ee",
+        "text": "#1a1c24",
+        "text.muted": "#5a5b63",
+        "text.placeholder": "#9395a0",
+        "text.disabled": "#9395a0",
+        "text.accent": "#dd5040",
+        "icon": "#5a5b63",
+        "icon.accent": "#dd5040",
+        "status_bar.background": "#f1f2f6",
+        "title_bar.background": "#f1f2f6",
+        "toolbar.background": "#fbfbfd",
+        "tab_bar.background": "#f1f2f6",
+        "tab.active_background": "#fbfbfd",
+        "tab.inactive_background": "#f1f2f6",
+        "editor.background": "#fbfbfd",
+        "editor.foreground": "#1a1c24",
+        "editor.gutter.background": "#fbfbfd",
+        "editor.line_number": "#9395a0",
+        "editor.active_line_number": "#1a1c24",
+        "editor.active_line.background": "#e7e8ee",
+        "editor.highlighted_line.background": "#e7e8ee",
+        "editor.document_highlight.read_background": "rgba(207, 224, 245, 0.5)",
+        "scrollbar.thumb.background": "rgba(147, 149, 160, 0.4)",
+        "element.active": "#e7e8ee",
+        "drop_target.background": "rgba(221, 80, 64, 0.2)",
+        "players": [
+          {
+            "cursor": "#dd5040",
+            "background": "#dd5040",
+            "selection": "rgba(207, 224, 245, 0.6)"
+          }
+        ],
+        "error": "#d32f2f",
+        "warning": "#b7791f",
+        "info": "#0e7490",
+        "success": "#1a9e5a",
+        "terminal.background": "#fbfbfd",
+        "terminal.foreground": "#1a1c24",
+        "terminal.ansi.black": "#1a1c24",
+        "terminal.ansi.red": "#d32f2f",
+        "terminal.ansi.green": "#1a9e5a",
+        "terminal.ansi.yellow": "#b7791f",
+        "terminal.ansi.blue": "#2563c9",
+        "terminal.ansi.magenta": "#7c3aed",
+        "terminal.ansi.cyan": "#0e7490",
+        "terminal.ansi.white": "#c8cad2",
+        "terminal.ansi.bright_black": "#5a5b63",
+        "terminal.ansi.bright_red": "#e14b4b",
+        "terminal.ansi.bright_green": "#1fb368",
+        "terminal.ansi.bright_yellow": "#cc8f1e",
+        "terminal.ansi.bright_blue": "#3b77e0",
+        "terminal.ansi.bright_magenta": "#8b5cf6",
+        "terminal.ansi.bright_cyan": "#1395b8",
+        "terminal.ansi.bright_white": "#fbfbfd",
+        "syntax": {
+          "comment": {
+            "color": "#9395a0",
+            "font_style": "italic"
+          },
+          "string": {
+            "color": "#1a9e5a"
+          },
+          "string.escape": {
+            "color": "#c2410c"
+          },
+          "string.regex": {
+            "color": "#c026a0"
+          },
+          "number": {
+            "color": "#c2410c"
+          },
+          "boolean": {
+            "color": "#c2410c"
+          },
+          "constant": {
+            "color": "#c2410c"
+          },
+          "keyword": {
+            "color": "#c8432f"
+          },
+          "operator": {
+            "color": "#c026a0"
+          },
+          "function": {
+            "color": "#0e7490"
+          },
+          "function.method": {
+            "color": "#0e7490"
+          },
+          "type": {
+            "color": "#b7791f"
+          },
+          "variable": {
+            "color": "#1a1c24"
+          },
+          "property": {
+            "color": "#0e7490"
+          },
+          "attribute": {
+            "color": "#b7791f"
+          },
+          "tag": {
+            "color": "#c8432f"
+          },
+          "punctuation": {
+            "color": "#5a5b63"
+          },
+          "punctuation.bracket": {
+            "color": "#5a5b63"
+          },
+          "title": {
+            "color": "#c8432f",
+            "font_style": "bold"
+          },
+          "emphasis": {
+            "color": "#1a9e5a",
+            "font_style": "italic"
+          }
+        }
+      }
+    }
+  ]
+}

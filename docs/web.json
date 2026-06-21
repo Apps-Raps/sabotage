@@ -1,0 +1,4 @@
+{
+  "en": "## Usage\nThree exports for your own projects.\n\n- `sabotage.css` — CSS custom properties (`--sb-*`). Light by default; set `data-theme=\"dark\"` on `<html>`.\n- `sabotage.scss` — flat `$sb-*` variables plus `$sabotage-dark` / `$sabotage-light` Sass maps.\n- `sabotage.tokens.json` — W3C Design Tokens for tooling.\n\n```html\n<link rel=\"stylesheet\" href=\"sabotage.css\">\n<div style=\"background: var(--sb-bg); color: var(--sb-fg)\">Hello</div>\n```",
+  "pt": "## Uso\nTrês exports para os seus projetos.\n\n- `sabotage.css` — custom properties CSS (`--sb-*`). Claro por padrão; defina `data-theme=\"dark\"` no `<html>`.\n- `sabotage.scss` — variáveis `$sb-*` planas e mapas Sass `$sabotage-dark` / `$sabotage-light`.\n- `sabotage.tokens.json` — W3C Design Tokens para ferramentas.\n\n```html\n<link rel=\"stylesheet\" href=\"sabotage.css\">\n<div style=\"background: var(--sb-bg); color: var(--sb-fg)\">Olá</div>\n```"
+}

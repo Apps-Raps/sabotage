@@ -1,0 +1,4 @@
+{
+  "en": "## Installation\n1. Download `sabotage-dark.toml` to `~/.config/wezterm/colors/`.\n2. In `wezterm.lua`:\n```lua\nconfig.color_scheme = \"Sabotage Dark\"\n```",
+  "pt": "## Instalação\n1. Baixe `sabotage-dark.toml` para `~/.config/wezterm/colors/`.\n2. No `wezterm.lua`:\n```lua\nconfig.color_scheme = \"Sabotage Dark\"\n```"
+}

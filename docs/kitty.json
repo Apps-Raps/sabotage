@@ -1,0 +1,4 @@
+{
+  "en": "## Installation\n1. Download `sabotage-dark.conf` to `~/.config/kitty/`.\n2. Add to `kitty.conf`:\n```conf\ninclude sabotage-dark.conf\n```\n3. Reload with `ctrl+shift+f5`.",
+  "pt": "## Instalação\n1. Baixe `sabotage-dark.conf` para `~/.config/kitty/`.\n2. Adicione ao `kitty.conf`:\n```conf\ninclude sabotage-dark.conf\n```\n3. Recarregue com `ctrl+shift+f5`."
+}

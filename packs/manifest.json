@@ -1,0 +1,269 @@
+{
+  "name": "Sabotage",
+  "version": "1.0.0",
+  "homepage": "https://sabotage.nosso.top",
+  "generated": "2026-06-21",
+  "categories": [
+    "editor",
+    "terminal",
+    "shell",
+    "chat",
+    "web"
+  ],
+  "count": 21,
+  "apps": [
+    {
+      "id": "helix",
+      "name": "Helix",
+      "category": "editor",
+      "ext": "toml",
+      "files": {
+        "dark": "packs/helix/sabotage-dark.toml",
+        "light": "packs/helix/sabotage-light.toml"
+      },
+      "docs": "docs/helix.json",
+      "icon": "assets/icons/helix.svg"
+    },
+    {
+      "id": "jetbrains",
+      "name": "JetBrains",
+      "category": "editor",
+      "ext": "icls",
+      "files": {
+        "dark": "packs/jetbrains/sabotage-dark.icls",
+        "light": "packs/jetbrains/sabotage-light.icls"
+      },
+      "docs": "docs/jetbrains.json",
+      "icon": "assets/icons/jetbrains.svg"
+    },
+    {
+      "id": "notepadpp",
+      "name": "Notepad++",
+      "category": "editor",
+      "ext": "xml",
+      "files": {
+        "dark": "packs/notepadpp/sabotage-dark.xml",
+        "light": "packs/notepadpp/sabotage-light.xml"
+      },
+      "docs": "docs/notepadpp.json",
+      "icon": "assets/icons/notepadpp.svg"
+    },
+    {
+      "id": "obsidian",
+      "name": "Obsidian",
+      "category": "editor",
+      "ext": "css",
+      "files": {
+        "dark": "packs/obsidian/sabotage-dark.css",
+        "light": "packs/obsidian/sabotage-light.css"
+      },
+      "docs": "docs/obsidian.json",
+      "icon": "assets/icons/obsidian.svg"
+    },
+    {
+      "id": "sublime",
+      "name": "Sublime Text",
+      "category": "editor",
+      "ext": "sublime-color-scheme",
+      "files": {
+        "dark": "packs/sublime/sabotage-dark.sublime-color-scheme",
+        "light": "packs/sublime/sabotage-light.sublime-color-scheme"
+      },
+      "docs": "docs/sublime.json",
+      "icon": "assets/icons/sublime.svg"
+    },
+    {
+      "id": "vim",
+      "name": "Vim / Neovim",
+      "category": "editor",
+      "ext": "vim",
+      "files": {
+        "dark": "packs/vim/sabotage-dark.vim",
+        "light": "packs/vim/sabotage-light.vim"
+      },
+      "docs": "docs/vim.json",
+      "icon": "assets/icons/vim.svg"
+    },
+    {
+      "id": "vscode",
+      "name": "VS Code",
+      "category": "editor",
+      "ext": "json",
+      "files": {
+        "dark": "packs/vscode/sabotage-dark.json",
+        "light": "packs/vscode/sabotage-light.json"
+      },
+      "docs": "docs/vscode.json",
+      "icon": "assets/icons/vscode.svg"
+    },
+    {
+      "id": "zed",
+      "name": "Zed",
+      "category": "editor",
+      "ext": "json",
+      "files": {
+        "dark": "packs/zed/sabotage-dark.json",
+        "light": "packs/zed/sabotage-light.json"
+      },
+      "docs": "docs/zed.json",
+      "icon": "assets/icons/zed.svg"
+    },
+    {
+      "id": "alacritty",
+      "name": "Alacritty",
+      "category": "terminal",
+      "ext": "toml",
+      "files": {
+        "dark": "packs/alacritty/sabotage-dark.toml",
+        "light": "packs/alacritty/sabotage-light.toml"
+      },
+      "docs": "docs/alacritty.json",
+      "icon": "assets/icons/alacritty.svg"
+    },
+    {
+      "id": "ghostty",
+      "name": "Ghostty",
+      "category": "terminal",
+      "ext": "",
+      "files": {
+        "dark": "packs/ghostty/sabotage-dark",
+        "light": "packs/ghostty/sabotage-light"
+      },
+      "docs": "docs/ghostty.json",
+      "icon": "assets/icons/ghostty.svg"
+    },
+    {
+      "id": "hyper",
+      "name": "Hyper",
+      "category": "terminal",
+      "ext": "js",
+      "files": {
+        "dark": "packs/hyper/sabotage-dark.js",
+        "light": "packs/hyper/sabotage-light.js"
+      },
+      "docs": "docs/hyper.json",
+      "icon": "assets/icons/hyper.svg"
+    },
+    {
+      "id": "iterm2",
+      "name": "iTerm2",
+      "category": "terminal",
+      "ext": "itermcolors",
+      "files": {
+        "dark": "packs/iterm2/sabotage-dark.itermcolors",
+        "light": "packs/iterm2/sabotage-light.itermcolors"
+      },
+      "docs": "docs/iterm2.json",
+      "icon": "assets/icons/iterm2.svg"
+    },
+    {
+      "id": "kitty",
+      "name": "Kitty",
+      "category": "terminal",
+      "ext": "conf",
+      "files": {
+        "dark": "packs/kitty/sabotage-dark.conf",
+        "light": "packs/kitty/sabotage-light.conf"
+      },
+      "docs": "docs/kitty.json",
+      "icon": "assets/icons/kitty.svg"
+    },
+    {
+      "id": "warp",
+      "name": "Warp",
+      "category": "terminal",
+      "ext": "yaml",
+      "files": {
+        "dark": "packs/warp/sabotage-dark.yaml",
+        "light": "packs/warp/sabotage-light.yaml"
+      },
+      "docs": "docs/warp.json",
+      "icon": "assets/icons/warp.svg"
+    },
+    {
+      "id": "wezterm",
+      "name": "WezTerm",
+      "category": "terminal",
+      "ext": "toml",
+      "files": {
+        "dark": "packs/wezterm/sabotage-dark.toml",
+        "light": "packs/wezterm/sabotage-light.toml"
+      },
+      "docs": "docs/wezterm.json",
+      "icon": "assets/icons/wezterm.svg"
+    },
+    {
+      "id": "windowsterminal",
+      "name": "Windows Terminal",
+      "category": "terminal",
+      "ext": "json",
+      "files": {
+        "dark": "packs/windowsterminal/sabotage-dark.json",
+        "light": "packs/windowsterminal/sabotage-light.json"
+      },
+      "docs": "docs/windowsterminal.json",
+      "icon": "assets/icons/windowsterminal.svg"
+    },
+    {
+      "id": "tmux",
+      "name": "tmux",
+      "category": "shell",
+      "ext": "conf",
+      "files": {
+        "dark": "packs/tmux/sabotage-dark.conf",
+        "light": "packs/tmux/sabotage-light.conf"
+      },
+      "docs": "docs/tmux.json",
+      "icon": "assets/icons/tmux.svg"
+    },
+    {
+      "id": "zsh",
+      "name": "Zsh",
+      "category": "shell",
+      "ext": "zsh",
+      "files": {
+        "dark": "packs/zsh/sabotage-dark.zsh",
+        "light": "packs/zsh/sabotage-light.zsh"
+      },
+      "docs": "docs/zsh.json",
+      "icon": "assets/icons/zsh.svg"
+    },
+    {
+      "id": "discord",
+      "name": "Discord",
+      "category": "chat",
+      "ext": "theme.css",
+      "files": {
+        "dark": "packs/discord/sabotage-dark.theme.css",
+        "light": "packs/discord/sabotage-light.theme.css"
+      },
+      "docs": "docs/discord.json",
+      "icon": "assets/icons/discord.svg"
+    },
+    {
+      "id": "slack",
+      "name": "Slack",
+      "category": "chat",
+      "ext": "txt",
+      "files": {
+        "dark": "packs/slack/sabotage-dark.txt",
+        "light": "packs/slack/sabotage-light.txt"
+      },
+      "docs": "docs/slack.json",
+      "icon": "assets/icons/slack.svg"
+    },
+    {
+      "id": "web",
+      "name": "Web / CSS",
+      "category": "web",
+      "multi": true,
+      "files": {
+        "sabotage.css": "packs/web/sabotage.css",
+        "sabotage.scss": "packs/web/sabotage.scss",
+        "sabotage.tokens.json": "packs/web/sabotage.tokens.json"
+      },
+      "docs": "docs/web.json",
+      "icon": "assets/icons/web.svg"
+    }
+  ]
+}

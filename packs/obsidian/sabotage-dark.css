@@ -1,0 +1,62 @@
+/* Sabotage — Dark
+ * Sabotage theme snippet. Drop into .obsidian/snippets/ and enable it,
+ * or use as a full theme. Variables follow the Obsidian app CSS API.
+ */
+.theme-dark {
+  --background-primary: #0d0e11;
+  --background-primary-alt: #1a1c24;
+  --background-secondary: #1a1c24;
+  --background-secondary-alt: #22242e;
+  --background-modifier-border: #2a2c36;
+  --background-modifier-border-hover: #5a5b63;
+  --background-modifier-hover: #22242e;
+  --background-modifier-active-hover: #22242e;
+  --background-modifier-form-field: #0d0e11;
+
+  --text-normal: #e8e8ea;
+  --text-muted: #a8a9b0;
+  --text-faint: #5a5b63;
+  --text-on-accent: #ffffff;
+  --text-accent: #dd5040;
+  --text-accent-hover: #ff8a44;
+  --text-selection: rgb(42, 58, 82);
+  --text-highlight-bg: #2a3a52;
+  --text-error: #ff5555;
+
+  --interactive-normal: #1a1c24;
+  --interactive-hover: #22242e;
+  --interactive-accent: #dd5040;
+  --interactive-accent-hover: #ff8a44;
+
+  --caret-color: #dd5040;
+  --link-color: #dd5040;
+  --link-external-color: #4dd9ff;
+  --hr-color: #2a2c36;
+  --blockquote-border-color: #dd5040;
+  --tag-color: #dd5040;
+  --tag-background: rgb(34, 36, 46);
+
+  /* code blocks (Prism token classes) */
+  --code-background: #1a1c24;
+  --code-normal: #e8e8ea;
+  --code-comment: #5a5b63;
+  --code-keyword: #dd5040;
+  --code-string: #2ecc71;
+  --code-function: #4dd9ff;
+  --code-property: #4dd9ff;
+  --code-operator: #ff69b4;
+  --code-punctuation: #a8a9b0;
+  --code-value: #ff8a44;
+  --code-tag: #dd5040;
+  --code-important: #ff5555;
+}
+
+.theme-dark .token.comment { color: #5a5b63; font-style: italic; }
+.theme-dark .token.keyword { color: #dd5040; }
+.theme-dark .token.string { color: #2ecc71; }
+.theme-dark .token.number { color: #ff8a44; }
+.theme-dark .token.function { color: #4dd9ff; }
+.theme-dark .token.operator { color: #ff69b4; }
+.theme-dark .token.tag { color: #dd5040; }
+.theme-dark .token.attr-name { color: #ffd166; }
+.theme-dark .token.punctuation { color: #a8a9b0; }

@@ -1,0 +1,54 @@
+/**
+ * @name Sabotage Dark
+ * @author nosso.top
+ * @version 1.0.0
+ * @description Sabotage theme for Discord (BetterDiscord / Vencord).
+ * @website https://sabotage.nosso.top
+ */
+
+:root {
+  --background-primary: #0d0e11;
+  --background-secondary: #1a1c24;
+  --background-secondary-alt: #22242e;
+  --background-tertiary: #08090b;
+  --background-floating: #1a1c24;
+  --background-mobile-primary: #0d0e11;
+  --background-mobile-secondary: #1a1c24;
+  --background-accent: #dd5040;
+  --background-modifier-hover: #22242e;
+  --background-modifier-selected: #22242e;
+  --channeltextarea-background: #1a1c24;
+
+  --header-primary: #e8e8ea;
+  --header-secondary: #a8a9b0;
+  --text-normal: #e8e8ea;
+  --text-muted: #5a5b63;
+  --text-link: #dd5040;
+  --interactive-normal: #a8a9b0;
+  --interactive-hover: #e8e8ea;
+  --interactive-active: #e8e8ea;
+  --interactive-muted: #5a5b63;
+
+  --brand-experiment: #dd5040;
+  --brand-experiment-560: #dd5040;
+  --brand-500: #dd5040;
+  --button-background: #dd5040;
+  --control-brand-foreground: #dd5040;
+  --mention-foreground: #dd5040;
+
+  --info-positive-foreground: #2ecc71;
+  --info-warning-foreground: #ffd166;
+  --info-danger-foreground: #ff5555;
+  --text-positive: #2ecc71;
+  --text-warning: #ffd166;
+  --text-danger: #ff5555;
+
+  --scrollbar-thin-thumb: #2a2c36;
+  --scrollbar-auto-thumb: #2a2c36;
+  --scrollbar-auto-track: #0d0e11;
+}
+
+.theme-dark {
+  --background-primary: #0d0e11;
+  --background-secondary: #1a1c24;
+}

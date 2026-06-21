@@ -1,0 +1,23 @@
+{
+    "name": "Sabotage Dark",
+    "background": "#0d0e11",
+    "foreground": "#e8e8ea",
+    "cursorColor": "#dd5040",
+    "selectionBackground": "#2a3a52",
+    "black": "#1a1c24",
+    "red": "#ff5555",
+    "green": "#2ecc71",
+    "yellow": "#ffd166",
+    "blue": "#5b8def",
+    "purple": "#8b5cf6",
+    "cyan": "#4dd9ff",
+    "white": "#e8e8ea",
+    "brightBlack": "#5a5b63",
+    "brightRed": "#ff6e6e",
+    "brightGreen": "#54e08c",
+    "brightYellow": "#ffdd8a",
+    "brightBlue": "#7faaf5",
+    "brightPurple": "#a78bfa",
+    "brightCyan": "#7ae4ff",
+    "brightWhite": "#ffffff"
+}

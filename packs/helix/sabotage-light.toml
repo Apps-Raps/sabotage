@@ -1,0 +1,66 @@
+# Sabotage — Light
+# Sabotage theme. Copy to ~/.config/helix/themes/sabotage-light.toml
+# then set in config.toml:  theme = "sabotage-light"
+
+# ── Syntax ──────────────────────────────────────────────────────────────────
+"comment" = { fg = "#9395a0", modifiers = ["italic"] }
+"keyword" = "#c8432f"
+"keyword.control" = "#c8432f"
+"keyword.operator" = "#c026a0"
+"operator" = "#c026a0"
+"string" = "#1a9e5a"
+"string.regexp" = "#c026a0"
+"constant.character.escape" = "#c2410c"
+"constant.numeric" = "#c2410c"
+"constant" = "#c2410c"
+"constant.builtin" = "#c2410c"
+"variable" = "#1a1c24"
+"variable.parameter" = "#1a1c24"
+"variable.builtin" = "#c8432f"
+"function" = "#0e7490"
+"function.builtin" = "#0e7490"
+"function.macro" = "#c026a0"
+"type" = "#b7791f"
+"type.builtin" = "#b7791f"
+"constructor" = "#b7791f"
+"label" = "#c8432f"
+"namespace" = "#b7791f"
+"punctuation" = "#5a5b63"
+"punctuation.delimiter" = "#5a5b63"
+"punctuation.bracket" = "#5a5b63"
+"tag" = "#c8432f"
+"attribute" = "#b7791f"
+"markup.heading" = { fg = "#c8432f", modifiers = ["bold"] }
+"markup.bold" = { modifiers = ["bold"] }
+"markup.italic" = { modifiers = ["italic"] }
+"markup.link.url" = { fg = "#0e7490", modifiers = ["underlined"] }
+"markup.raw" = "#1a9e5a"
+"diff.plus" = "#1a9e5a"
+"diff.delta" = "#b7791f"
+"diff.minus" = "#d32f2f"
+
+# ── UI ──────────────────────────────────────────────────────────────────────
+"ui.background" = { bg = "#fbfbfd" }
+"ui.text" = "#1a1c24"
+"ui.text.focus" = "#1a1c24"
+"ui.cursor" = { fg = "#fbfbfd", bg = "#dd5040" }
+"ui.cursor.primary" = { fg = "#fbfbfd", bg = "#dd5040" }
+"ui.cursorline.primary" = { bg = "#e7e8ee" }
+"ui.linenr" = "#9395a0"
+"ui.linenr.selected" = "#1a1c24"
+"ui.selection" = { bg = "#cfe0f5" }
+"ui.statusline" = { fg = "#1a1c24", bg = "#f1f2f6" }
+"ui.statusline.inactive" = { fg = "#9395a0", bg = "#f1f2f6" }
+"ui.help" = { fg = "#1a1c24", bg = "#f1f2f6" }
+"ui.popup" = { fg = "#1a1c24", bg = "#f1f2f6" }
+"ui.window" = "#dddee6"
+"ui.menu" = { fg = "#1a1c24", bg = "#f1f2f6" }
+"ui.menu.selected" = { fg = "#fbfbfd", bg = "#dd5040" }
+"ui.virtual.whitespace" = "#dddee6"
+"ui.virtual.ruler" = { bg = "#f1f2f6" }
+"ui.virtual.inlay-hint" = { fg = "#9395a0", bg = "#f1f2f6" }
+"hint" = "#9395a0"
+"info" = "#0e7490"
+"warning" = "#b7791f"
+"error" = "#d32f2f"
+"diagnostic" = { underline = { color = "#d32f2f", style = "curl" } }

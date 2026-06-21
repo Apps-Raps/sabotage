@@ -1,0 +1,4 @@
+{
+  "en": "## Installation\nWorks in IntelliJ IDEA, PyCharm, WebStorm, and the rest of the JetBrains IDEs.\n\n1. Download `sabotage-dark.icls`.\n2. Go to **Settings → Editor → Color Scheme**, click the gear icon → **Import Scheme…** and select the file.\n3. Pick **Sabotage Dark** from the scheme dropdown.",
+  "pt": "## Instalação\nFunciona no IntelliJ IDEA, PyCharm, WebStorm e demais IDEs JetBrains.\n\n1. Baixe `sabotage-dark.icls`.\n2. Vá em **Settings → Editor → Color Scheme**, clique na engrenagem → **Import Scheme…** e selecione o arquivo.\n3. Escolha **Sabotage Dark** na lista de esquemas."
+}

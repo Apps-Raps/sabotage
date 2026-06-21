@@ -1,0 +1,4 @@
+{
+  "en": "## Installation\n1. Download the file `sabotage-dark` (no extension).\n2. Copy it to `$XDG_CONFIG_HOME/ghostty/themes/Sabotage-dark`.\n3. In your Ghostty config set:\n```\ntheme = Sabotage-dark\n```",
+  "pt": "## Instalação\n1. Baixe o arquivo `sabotage-dark` (sem extensão).\n2. Copie para `$XDG_CONFIG_HOME/ghostty/themes/Sabotage-dark`.\n3. Na config do Ghostty defina:\n```\ntheme = Sabotage-dark\n```"
+}

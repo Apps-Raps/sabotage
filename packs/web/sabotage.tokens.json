@@ -1,0 +1,426 @@
+{
+  "$schema": "https://design-tokens.github.io/community-group/format/",
+  "sabotage": {
+    "$description": "Sabotage color theme tokens",
+    "dark": {
+      "ui": {
+        "bg": {
+          "$value": "#0d0e11",
+          "$type": "color"
+        },
+        "bgAlt": {
+          "$value": "#1a1c24",
+          "$type": "color"
+        },
+        "bgHl": {
+          "$value": "#22242e",
+          "$type": "color"
+        },
+        "fg": {
+          "$value": "#e8e8ea",
+          "$type": "color"
+        },
+        "fgDim": {
+          "$value": "#a8a9b0",
+          "$type": "color"
+        },
+        "comment": {
+          "$value": "#5a5b63",
+          "$type": "color"
+        },
+        "selection": {
+          "$value": "#2a3a52",
+          "$type": "color"
+        },
+        "cursor": {
+          "$value": "#dd5040",
+          "$type": "color"
+        },
+        "border": {
+          "$value": "#2a2c36",
+          "$type": "color"
+        },
+        "accent": {
+          "$value": "#dd5040",
+          "$type": "color"
+        }
+      },
+      "ansi": {
+        "black": {
+          "$value": "#1a1c24",
+          "$type": "color"
+        },
+        "red": {
+          "$value": "#ff5555",
+          "$type": "color"
+        },
+        "green": {
+          "$value": "#2ecc71",
+          "$type": "color"
+        },
+        "yellow": {
+          "$value": "#ffd166",
+          "$type": "color"
+        },
+        "blue": {
+          "$value": "#5b8def",
+          "$type": "color"
+        },
+        "magenta": {
+          "$value": "#8b5cf6",
+          "$type": "color"
+        },
+        "cyan": {
+          "$value": "#4dd9ff",
+          "$type": "color"
+        },
+        "white": {
+          "$value": "#e8e8ea",
+          "$type": "color"
+        },
+        "brightBlack": {
+          "$value": "#5a5b63",
+          "$type": "color"
+        },
+        "brightRed": {
+          "$value": "#ff6e6e",
+          "$type": "color"
+        },
+        "brightGreen": {
+          "$value": "#54e08c",
+          "$type": "color"
+        },
+        "brightYellow": {
+          "$value": "#ffdd8a",
+          "$type": "color"
+        },
+        "brightBlue": {
+          "$value": "#7faaf5",
+          "$type": "color"
+        },
+        "brightMagenta": {
+          "$value": "#a78bfa",
+          "$type": "color"
+        },
+        "brightCyan": {
+          "$value": "#7ae4ff",
+          "$type": "color"
+        },
+        "brightWhite": {
+          "$value": "#ffffff",
+          "$type": "color"
+        }
+      },
+      "syntax": {
+        "keyword": {
+          "$value": "#dd5040",
+          "$type": "color"
+        },
+        "string": {
+          "$value": "#2ecc71",
+          "$type": "color"
+        },
+        "number": {
+          "$value": "#ff8a44",
+          "$type": "color"
+        },
+        "function": {
+          "$value": "#4dd9ff",
+          "$type": "color"
+        },
+        "variable": {
+          "$value": "#e8e8ea",
+          "$type": "color"
+        },
+        "type": {
+          "$value": "#ffd166",
+          "$type": "color"
+        },
+        "constant": {
+          "$value": "#ff8a44",
+          "$type": "color"
+        },
+        "comment": {
+          "$value": "#5a5b63",
+          "$type": "color"
+        },
+        "operator": {
+          "$value": "#ff69b4",
+          "$type": "color"
+        },
+        "punctuation": {
+          "$value": "#a8a9b0",
+          "$type": "color"
+        },
+        "tag": {
+          "$value": "#dd5040",
+          "$type": "color"
+        },
+        "attribute": {
+          "$value": "#ffd166",
+          "$type": "color"
+        },
+        "property": {
+          "$value": "#4dd9ff",
+          "$type": "color"
+        },
+        "class": {
+          "$value": "#ffd166",
+          "$type": "color"
+        },
+        "regex": {
+          "$value": "#ff69b4",
+          "$type": "color"
+        },
+        "escape": {
+          "$value": "#ff8a44",
+          "$type": "color"
+        },
+        "invalid": {
+          "$value": "#ff5555",
+          "$type": "color"
+        }
+      },
+      "extra": {
+        "orange": {
+          "$value": "#ff8a44",
+          "$type": "color"
+        },
+        "pink": {
+          "$value": "#ff69b4",
+          "$type": "color"
+        },
+        "purple": {
+          "$value": "#8b5cf6",
+          "$type": "color"
+        },
+        "error": {
+          "$value": "#ff5555",
+          "$type": "color"
+        },
+        "warning": {
+          "$value": "#ffd166",
+          "$type": "color"
+        },
+        "info": {
+          "$value": "#4dd9ff",
+          "$type": "color"
+        },
+        "success": {
+          "$value": "#2ecc71",
+          "$type": "color"
+        }
+      }
+    },
+    "light": {
+      "ui": {
+        "bg": {
+          "$value": "#fbfbfd",
+          "$type": "color"
+        },
+        "bgAlt": {
+          "$value": "#f1f2f6",
+          "$type": "color"
+        },
+        "bgHl": {
+          "$value": "#e7e8ee",
+          "$type": "color"
+        },
+        "fg": {
+          "$value": "#1a1c24",
+          "$type": "color"
+        },
+        "fgDim": {
+          "$value": "#5a5b63",
+          "$type": "color"
+        },
+        "comment": {
+          "$value": "#9395a0",
+          "$type": "color"
+        },
+        "selection": {
+          "$value": "#cfe0f5",
+          "$type": "color"
+        },
+        "cursor": {
+          "$value": "#dd5040",
+          "$type": "color"
+        },
+        "border": {
+          "$value": "#dddee6",
+          "$type": "color"
+        },
+        "accent": {
+          "$value": "#dd5040",
+          "$type": "color"
+        }
+      },
+      "ansi": {
+        "black": {
+          "$value": "#1a1c24",
+          "$type": "color"
+        },
+        "red": {
+          "$value": "#d32f2f",
+          "$type": "color"
+        },
+        "green": {
+          "$value": "#1a9e5a",
+          "$type": "color"
+        },
+        "yellow": {
+          "$value": "#b7791f",
+          "$type": "color"
+        },
+        "blue": {
+          "$value": "#2563c9",
+          "$type": "color"
+        },
+        "magenta": {
+          "$value": "#7c3aed",
+          "$type": "color"
+        },
+        "cyan": {
+          "$value": "#0e7490",
+          "$type": "color"
+        },
+        "white": {
+          "$value": "#c8cad2",
+          "$type": "color"
+        },
+        "brightBlack": {
+          "$value": "#5a5b63",
+          "$type": "color"
+        },
+        "brightRed": {
+          "$value": "#e14b4b",
+          "$type": "color"
+        },
+        "brightGreen": {
+          "$value": "#1fb368",
+          "$type": "color"
+        },
+        "brightYellow": {
+          "$value": "#cc8f1e",
+          "$type": "color"
+        },
+        "brightBlue": {
+          "$value": "#3b77e0",
+          "$type": "color"
+        },
+        "brightMagenta": {
+          "$value": "#8b5cf6",
+          "$type": "color"
+        },
+        "brightCyan": {
+          "$value": "#1395b8",
+          "$type": "color"
+        },
+        "brightWhite": {
+          "$value": "#fbfbfd",
+          "$type": "color"
+        }
+      },
+      "syntax": {
+        "keyword": {
+          "$value": "#c8432f",
+          "$type": "color"
+        },
+        "string": {
+          "$value": "#1a9e5a",
+          "$type": "color"
+        },
+        "number": {
+          "$value": "#c2410c",
+          "$type": "color"
+        },
+        "function": {
+          "$value": "#0e7490",
+          "$type": "color"
+        },
+        "variable": {
+          "$value": "#1a1c24",
+          "$type": "color"
+        },
+        "type": {
+          "$value": "#b7791f",
+          "$type": "color"
+        },
+        "constant": {
+          "$value": "#c2410c",
+          "$type": "color"
+        },
+        "comment": {
+          "$value": "#9395a0",
+          "$type": "color"
+        },
+        "operator": {
+          "$value": "#c026a0",
+          "$type": "color"
+        },
+        "punctuation": {
+          "$value": "#5a5b63",
+          "$type": "color"
+        },
+        "tag": {
+          "$value": "#c8432f",
+          "$type": "color"
+        },
+        "attribute": {
+          "$value": "#b7791f",
+          "$type": "color"
+        },
+        "property": {
+          "$value": "#0e7490",
+          "$type": "color"
+        },
+        "class": {
+          "$value": "#b7791f",
+          "$type": "color"
+        },
+        "regex": {
+          "$value": "#c026a0",
+          "$type": "color"
+        },
+        "escape": {
+          "$value": "#c2410c",
+          "$type": "color"
+        },
+        "invalid": {
+          "$value": "#d32f2f",
+          "$type": "color"
+        }
+      },
+      "extra": {
+        "orange": {
+          "$value": "#c2410c",
+          "$type": "color"
+        },
+        "pink": {
+          "$value": "#c026a0",
+          "$type": "color"
+        },
+        "purple": {
+          "$value": "#7c3aed",
+          "$type": "color"
+        },
+        "error": {
+          "$value": "#d32f2f",
+          "$type": "color"
+        },
+        "warning": {
+          "$value": "#b7791f",
+          "$type": "color"
+        },
+        "info": {
+          "$value": "#0e7490",
+          "$type": "color"
+        },
+        "success": {
+          "$value": "#1a9e5a",
+          "$type": "color"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,4 @@
+{
+  "en": "## Installation\nIncludes a truecolor `LS_COLORS` set and an optional minimal prompt.\n\n1. Download `sabotage-dark.zsh` to `~/.config/zsh/`.\n2. Add to `~/.zshrc`:\n```zsh\nsource ~/.config/zsh/sabotage-dark.zsh\n```",
+  "pt": "## Instalação\nInclui um conjunto `LS_COLORS` truecolor e um prompt mínimo opcional.\n\n1. Baixe `sabotage-dark.zsh` para `~/.config/zsh/`.\n2. Adicione ao `~/.zshrc`:\n```zsh\nsource ~/.config/zsh/sabotage-dark.zsh\n```"
+}

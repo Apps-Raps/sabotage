@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<NotepadPlus>
+    <LexerStyles>
+        <LexerType name="searchResult" desc="Search result" excluded="no">
+            <WordsStyle name="Default" styleID="41" fgColor="E8E8EA" bgColor="0D0E11" />
+        </LexerType>
+    </LexerStyles>
+    <GlobalStyles>
+        <WidgetStyle name="Global override" styleID="0" fgColor="E8E8EA" bgColor="0D0E11" />
+        <WidgetStyle name="Default Style" styleID="0" fgColor="E8E8EA" bgColor="0D0E11" />
+        <WidgetStyle name="Indent guideline style" styleID="0" fgColor="2A2C36" bgColor="0D0E11" />
+        <WidgetStyle name="Brace highlight style" styleID="0" fgColor="DD5040" bgColor="22242E" />
+        <WidgetStyle name="Bad brace colour" styleID="0" fgColor="FF5555" bgColor="0D0E11" />
+        <WidgetStyle name="Current line background colour" styleID="0" bgColor="22242E" />
+        <WidgetStyle name="Selected text colour" styleID="0" bgColor="2A3A52" />
+        <WidgetStyle name="Caret colour" styleID="0" fgColor="DD5040" />
+        <WidgetStyle name="Edge colour" styleID="0" fgColor="2A2C36" />
+        <WidgetStyle name="Line number margin" styleID="0" fgColor="5A5B63" bgColor="1A1C24" />
+        <WidgetStyle name="Fold" styleID="0" fgColor="5A5B63" bgColor="1A1C24" />
+        <WidgetStyle name="Fold active" styleID="0" fgColor="DD5040" bgColor="1A1C24" />
+        <WidgetStyle name="Fold margin" styleID="0" fgColor="1A1C24" bgColor="0D0E11" />
+        <WidgetStyle name="White space symbol" styleID="0" fgColor="2A2C36" bgColor="0D0E11" />
+        <WidgetStyle name="Smart HighLighting" styleID="0" bgColor="22242E" />
+        <WidgetStyle name="Mark Style 1" styleID="0" bgColor="2A3A52" />
+        <WidgetStyle name="URL hovered" styleID="0" fgColor="DD5040" />
+        <WordsStyle name="Comment" styleID="1" fgColor="5A5B63" bgColor="0D0E11" fontName="" fontStyle="2" fontSize="" />
+        <WordsStyle name="Number" styleID="2" fgColor="FF8A44" bgColor="0D0E11" fontName="" fontStyle="0" fontSize="" />
+        <WordsStyle name="Keyword" styleID="3" fgColor="DD5040" bgColor="0D0E11" fontName="" fontStyle="1" fontSize="" />
+        <WordsStyle name="String" styleID="4" fgColor="2ECC71" bgColor="0D0E11" fontName="" fontStyle="0" fontSize="" />
+        <WordsStyle name="Operator" styleID="5" fgColor="FF69B4" bgColor="0D0E11" fontName="" fontStyle="0" fontSize="" />
+        <WordsStyle name="Identifier" styleID="6" fgColor="E8E8EA" bgColor="0D0E11" fontName="" fontStyle="0" fontSize="" />
+        <WordsStyle name="Type" styleID="7" fgColor="FFD166" bgColor="0D0E11" fontName="" fontStyle="0" fontSize="" />
+        <WordsStyle name="Function" styleID="8" fgColor="4DD9FF" bgColor="0D0E11" fontName="" fontStyle="0" fontSize="" />
+    </GlobalStyles>
+</NotepadPlus>

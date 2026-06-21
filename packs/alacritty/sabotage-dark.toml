@@ -1,0 +1,34 @@
+# Sabotage — Dark
+# Sabotage theme. Import via: general.import = ["~/.config/alacritty/sabotage-dark.toml"]
+
+[colors.primary]
+background = "#0d0e11"
+foreground = "#e8e8ea"
+
+[colors.cursor]
+cursor = "#dd5040"
+text = "#0d0e11"
+
+[colors.selection]
+background = "#2a3a52"
+text = "#e8e8ea"
+
+[colors.normal]
+black = "#1a1c24"
+red = "#ff5555"
+green = "#2ecc71"
+yellow = "#ffd166"
+blue = "#5b8def"
+magenta = "#8b5cf6"
+cyan = "#4dd9ff"
+white = "#e8e8ea"
+
+[colors.bright]
+black = "#5a5b63"
+red = "#ff6e6e"
+green = "#54e08c"
+yellow = "#ffdd8a"
+blue = "#7faaf5"
+magenta = "#a78bfa"
+cyan = "#7ae4ff"
+white = "#ffffff"

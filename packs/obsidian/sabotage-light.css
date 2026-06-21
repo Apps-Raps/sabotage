@@ -1,0 +1,62 @@
+/* Sabotage — Light
+ * Sabotage theme snippet. Drop into .obsidian/snippets/ and enable it,
+ * or use as a full theme. Variables follow the Obsidian app CSS API.
+ */
+.theme-light {
+  --background-primary: #fbfbfd;
+  --background-primary-alt: #f1f2f6;
+  --background-secondary: #f1f2f6;
+  --background-secondary-alt: #e7e8ee;
+  --background-modifier-border: #dddee6;
+  --background-modifier-border-hover: #9395a0;
+  --background-modifier-hover: #e7e8ee;
+  --background-modifier-active-hover: #e7e8ee;
+  --background-modifier-form-field: #fbfbfd;
+
+  --text-normal: #1a1c24;
+  --text-muted: #5a5b63;
+  --text-faint: #9395a0;
+  --text-on-accent: #ffffff;
+  --text-accent: #dd5040;
+  --text-accent-hover: #c2410c;
+  --text-selection: rgb(207, 224, 245);
+  --text-highlight-bg: #cfe0f5;
+  --text-error: #d32f2f;
+
+  --interactive-normal: #f1f2f6;
+  --interactive-hover: #e7e8ee;
+  --interactive-accent: #dd5040;
+  --interactive-accent-hover: #c2410c;
+
+  --caret-color: #dd5040;
+  --link-color: #dd5040;
+  --link-external-color: #0e7490;
+  --hr-color: #dddee6;
+  --blockquote-border-color: #dd5040;
+  --tag-color: #dd5040;
+  --tag-background: rgb(231, 232, 238);
+
+  /* code blocks (Prism token classes) */
+  --code-background: #f1f2f6;
+  --code-normal: #1a1c24;
+  --code-comment: #9395a0;
+  --code-keyword: #c8432f;
+  --code-string: #1a9e5a;
+  --code-function: #0e7490;
+  --code-property: #0e7490;
+  --code-operator: #c026a0;
+  --code-punctuation: #5a5b63;
+  --code-value: #c2410c;
+  --code-tag: #c8432f;
+  --code-important: #d32f2f;
+}
+
+.theme-light .token.comment { color: #9395a0; font-style: italic; }
+.theme-light .token.keyword { color: #c8432f; }
+.theme-light .token.string { color: #1a9e5a; }
+.theme-light .token.number { color: #c2410c; }
+.theme-light .token.function { color: #0e7490; }
+.theme-light .token.operator { color: #c026a0; }
+.theme-light .token.tag { color: #c8432f; }
+.theme-light .token.attr-name { color: #b7791f; }
+.theme-light .token.punctuation { color: #5a5b63; }

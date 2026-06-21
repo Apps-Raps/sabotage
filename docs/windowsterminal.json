@@ -1,0 +1,4 @@
+{
+  "en": "## Installation\n1. Open Windows Terminal → **Settings → Open JSON file**.\n2. Copy the contents of `sabotage-dark.json` into the `\"schemes\": [ ]` array.\n3. In a profile, set `\"colorScheme\": \"Sabotage Dark\"`.",
+  "pt": "## Instalação\n1. Abra o Windows Terminal → **Settings → Open JSON file**.\n2. Copie o conteúdo de `sabotage-dark.json` para o array `\"schemes\": [ ]`.\n3. Em um perfil, defina `\"colorScheme\": \"Sabotage Dark\"`."
+}

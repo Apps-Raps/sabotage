@@ -1,0 +1,4 @@
+{
+  "en": "## Installation\n1. Download `sabotage-dark.json`.\n2. Copy it to `~/.config/zed/themes/`.\n3. Open the command palette → **theme selector** and pick **Sabotage**.",
+  "pt": "## Instalação\n1. Baixe `sabotage-dark.json`.\n2. Copie para `~/.config/zed/themes/`.\n3. Abra a paleta de comandos → **theme selector** e escolha **Sabotage**."
+}

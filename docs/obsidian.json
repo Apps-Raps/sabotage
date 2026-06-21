@@ -1,0 +1,4 @@
+{
+  "en": "## Installation\n1. Download `sabotage-dark.css`.\n2. Put it in your vault under `.obsidian/snippets/`.\n3. Enable it in **Settings → Appearance → CSS snippets**. The variables track Obsidian's dark/light mode.",
+  "pt": "## Instalação\n1. Baixe `sabotage-dark.css`.\n2. Coloque no seu vault em `.obsidian/snippets/`.\n3. Ative em **Settings → Appearance → CSS snippets**. As variáveis acompanham o modo claro/escuro do Obsidian."
+}

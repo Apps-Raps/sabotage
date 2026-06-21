@@ -1,0 +1,16 @@
+{
+  "name": "sabotage-theme",
+  "version": "1.0.0",
+  "description": "Sabotage — one warm, energetic color theme for every platform.",
+  "homepage": "https://sabotage.nosso.top",
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs && node scripts/docs.mjs",
+    "docs": "node scripts/docs.mjs",
+    "verify": "node scripts/verify.mjs",
+    "all": "node scripts/build.mjs && node scripts/docs.mjs && node scripts/verify.mjs",
+    "serve": "python3 -m http.server 8080"
+  }
+}

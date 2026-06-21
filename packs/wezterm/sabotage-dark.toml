@@ -1,0 +1,20 @@
+# Sabotage — Dark
+# Sabotage color scheme. Copy to ~/.config/wezterm/colors/sabotage-dark.toml
+# then in wezterm.lua:  config.color_scheme = "Sabotage Dark"
+
+[metadata]
+name = "Sabotage Dark"
+author = "nosso.top"
+
+[colors]
+foreground = "#e8e8ea"
+background = "#0d0e11"
+cursor_bg = "#dd5040"
+cursor_fg = "#0d0e11"
+cursor_border = "#dd5040"
+selection_bg = "#2a3a52"
+selection_fg = "#e8e8ea"
+scrollbar_thumb = "#2a2c36"
+split = "#2a2c36"
+ansi = ["#1a1c24", "#ff5555", "#2ecc71", "#ffd166", "#5b8def", "#8b5cf6", "#4dd9ff", "#e8e8ea"]
+brights = ["#5a5b63", "#ff6e6e", "#54e08c", "#ffdd8a", "#7faaf5", "#a78bfa", "#7ae4ff", "#ffffff"]
