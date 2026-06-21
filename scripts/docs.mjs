@@ -289,6 +289,94 @@ theme = "sabotage-dark"
 theme = "sabotage-dark"
 \`\`\``,
   },
+  terminalapp: {
+    en: `## Installation
+1. Download \`sabotage-dark.terminal\` (it's a macOS Terminal profile).
+2. Double-click it, or open **Terminal → Settings → Profiles**, click the **⋮ → Import…** menu and choose the file.
+3. Select **Sabotage** in the profile list and click **Default** to make it your default.`,
+    pt: `## Instalação
+1. Baixe \`sabotage-dark.terminal\` (é um perfil do Terminal do macOS).
+2. Dê dois cliques nele, ou abra **Terminal → Settings → Profiles**, use o menu **⋮ → Import…** e escolha o arquivo.
+3. Selecione **Sabotage** na lista de perfis e clique em **Default** para torná-lo padrão.`,
+  },
+  gnometerminal: {
+    en: `## Installation
+The download is a script that creates a GNOME Terminal profile via \`dconf\`.
+
+1. Download \`sabotage-dark.sh\`.
+2. Run it: \`bash sabotage-dark.sh\` (needs \`dconf\` and \`uuidgen\`).
+3. Open **Preferences**, pick the new **Sabotage** profile, and set it as default if you like.`,
+    pt: `## Instalação
+O download é um script que cria um perfil do GNOME Terminal via \`dconf\`.
+
+1. Baixe \`sabotage-dark.sh\`.
+2. Execute: \`bash sabotage-dark.sh\` (requer \`dconf\` e \`uuidgen\`).
+3. Abra as **Preferências**, escolha o novo perfil **Sabotage** e defina como padrão se quiser.`,
+  },
+  termux: {
+    en: `## Installation
+1. Download \`sabotage-dark.properties\`.
+2. Save it as \`~/.termux/colors.properties\`:
+\`\`\`sh
+mkdir -p ~/.termux && cp sabotage-dark.properties ~/.termux/colors.properties
+\`\`\`
+3. Apply with \`termux-reload-settings\`.`,
+    pt: `## Instalação
+1. Baixe \`sabotage-dark.properties\`.
+2. Salve como \`~/.termux/colors.properties\`:
+\`\`\`sh
+mkdir -p ~/.termux && cp sabotage-dark.properties ~/.termux/colors.properties
+\`\`\`
+3. Aplique com \`termux-reload-settings\`.`,
+  },
+  powershell: {
+    en: `## Installation
+Sabotage syntax colors for **PSReadLine** (PowerShell 7 or Windows PowerShell 5.1 + module).
+
+1. Download \`sabotage-dark.ps1\` to your home folder.
+2. Add to your \`$PROFILE\`:
+\`\`\`powershell
+. "$HOME\\sabotage-dark.ps1"
+\`\`\`
+3. Open a new session. Pair it with the Sabotage **Windows Terminal** scheme for a fully themed prompt.`,
+    pt: `## Instalação
+Cores de sintaxe Sabotage para o **PSReadLine** (PowerShell 7 ou Windows PowerShell 5.1 + módulo).
+
+1. Baixe \`sabotage-dark.ps1\` para a sua pasta de usuário.
+2. Adicione ao seu \`$PROFILE\`:
+\`\`\`powershell
+. "$HOME\\sabotage-dark.ps1"
+\`\`\`
+3. Abra uma nova sessão. Combine com o esquema do **Windows Terminal** para um prompt totalmente temático.`,
+  },
+  telegram: {
+    en: `## Installation
+For **Telegram Desktop**.
+
+1. Download \`sabotage-dark.tdesktop-palette\`.
+2. In Telegram go to **Settings → Chat Settings → Theme**, open the **⋮** menu and choose **Create new theme** (or import the palette).
+3. Load the file and save. Undefined keys fall back to the default theme.`,
+    pt: `## Instalação
+Para o **Telegram Desktop**.
+
+1. Baixe \`sabotage-dark.tdesktop-palette\`.
+2. No Telegram vá em **Settings → Chat Settings → Theme**, abra o menu **⋮** e escolha **Create new theme** (ou importe a paleta).
+3. Carregue o arquivo e salve. Chaves não definidas usam o tema padrão.`,
+  },
+  atom: {
+    en: `## Installation
+A syntax theme for Atom (works as a package or a pasted stylesheet).
+
+1. Download \`sabotage-dark.less\`.
+2. Quick way: open **Atom → Stylesheet…** and paste the contents.
+3. As a package: create \`~/.atom/packages/sabotage-syntax/\` with a \`package.json\` and put this file under \`styles/\`, then enable it in **Settings → Themes → Syntax Theme**.`,
+    pt: `## Instalação
+Um tema de sintaxe para o Atom (funciona como pacote ou folha de estilo colada).
+
+1. Baixe \`sabotage-dark.less\`.
+2. Jeito rápido: abra **Atom → Stylesheet…** e cole o conteúdo.
+3. Como pacote: crie \`~/.atom/packages/sabotage-syntax/\` com um \`package.json\` e coloque este arquivo em \`styles/\`, depois ative em **Settings → Themes → Syntax Theme**.`,
+  },
   web: {
     en: `## Usage
 Three exports for your own projects.

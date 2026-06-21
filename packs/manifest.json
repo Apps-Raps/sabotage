@@ -10,8 +10,20 @@
     "chat",
     "web"
   ],
-  "count": 21,
+  "count": 27,
   "apps": [
+    {
+      "id": "atom",
+      "name": "Atom",
+      "category": "editor",
+      "ext": "less",
+      "files": {
+        "dark": "packs/atom/sabotage-dark.less",
+        "light": "packs/atom/sabotage-light.less"
+      },
+      "docs": "docs/atom.json",
+      "icon": "assets/icons/atom.svg"
+    },
     {
       "id": "helix",
       "name": "Helix",
@@ -133,6 +145,18 @@
       "icon": "assets/icons/ghostty.svg"
     },
     {
+      "id": "gnometerminal",
+      "name": "GNOME Terminal",
+      "category": "terminal",
+      "ext": "sh",
+      "files": {
+        "dark": "packs/gnometerminal/sabotage-dark.sh",
+        "light": "packs/gnometerminal/sabotage-light.sh"
+      },
+      "docs": "docs/gnometerminal.json",
+      "icon": "assets/icons/gnometerminal.svg"
+    },
+    {
       "id": "hyper",
       "name": "Hyper",
       "category": "terminal",
@@ -169,6 +193,30 @@
       "icon": "assets/icons/kitty.svg"
     },
     {
+      "id": "terminalapp",
+      "name": "Terminal.app",
+      "category": "terminal",
+      "ext": "terminal",
+      "files": {
+        "dark": "packs/terminalapp/sabotage-dark.terminal",
+        "light": "packs/terminalapp/sabotage-light.terminal"
+      },
+      "docs": "docs/terminalapp.json",
+      "icon": "assets/icons/terminalapp.svg"
+    },
+    {
+      "id": "termux",
+      "name": "Termux",
+      "category": "terminal",
+      "ext": "properties",
+      "files": {
+        "dark": "packs/termux/sabotage-dark.properties",
+        "light": "packs/termux/sabotage-light.properties"
+      },
+      "docs": "docs/termux.json",
+      "icon": "assets/icons/termux.svg"
+    },
+    {
       "id": "warp",
       "name": "Warp",
       "category": "terminal",
@@ -203,6 +251,18 @@
       },
       "docs": "docs/windowsterminal.json",
       "icon": "assets/icons/windowsterminal.svg"
+    },
+    {
+      "id": "powershell",
+      "name": "PowerShell",
+      "category": "shell",
+      "ext": "ps1",
+      "files": {
+        "dark": "packs/powershell/sabotage-dark.ps1",
+        "light": "packs/powershell/sabotage-light.ps1"
+      },
+      "docs": "docs/powershell.json",
+      "icon": "assets/icons/powershell.svg"
     },
     {
       "id": "tmux",
@@ -251,6 +311,18 @@
       },
       "docs": "docs/slack.json",
       "icon": "assets/icons/slack.svg"
+    },
+    {
+      "id": "telegram",
+      "name": "Telegram",
+      "category": "chat",
+      "ext": "tdesktop-palette",
+      "files": {
+        "dark": "packs/telegram/sabotage-dark.tdesktop-palette",
+        "light": "packs/telegram/sabotage-light.tdesktop-palette"
+      },
+      "docs": "docs/telegram.json",
+      "icon": "assets/icons/telegram.svg"
     },
     {
       "id": "web",

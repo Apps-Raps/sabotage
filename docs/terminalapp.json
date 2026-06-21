@@ -1,0 +1,4 @@
+{
+  "en": "## Installation\n1. Download `sabotage-dark.terminal` (it's a macOS Terminal profile).\n2. Double-click it, or open **Terminal → Settings → Profiles**, click the **⋮ → Import…** menu and choose the file.\n3. Select **Sabotage** in the profile list and click **Default** to make it your default.",
+  "pt": "## Instalação\n1. Baixe `sabotage-dark.terminal` (é um perfil do Terminal do macOS).\n2. Dê dois cliques nele, ou abra **Terminal → Settings → Profiles**, use o menu **⋮ → Import…** e escolha o arquivo.\n3. Selecione **Sabotage** na lista de perfis e clique em **Default** para torná-lo padrão."
+}

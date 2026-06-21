@@ -1,0 +1,4 @@
+{
+  "en": "## Installation\nFor **Telegram Desktop**.\n\n1. Download `sabotage-dark.tdesktop-palette`.\n2. In Telegram go to **Settings → Chat Settings → Theme**, open the **⋮** menu and choose **Create new theme** (or import the palette).\n3. Load the file and save. Undefined keys fall back to the default theme.",
+  "pt": "## Instalação\nPara o **Telegram Desktop**.\n\n1. Baixe `sabotage-dark.tdesktop-palette`.\n2. No Telegram vá em **Settings → Chat Settings → Theme**, abra o menu **⋮** e escolha **Create new theme** (ou importe a paleta).\n3. Carregue o arquivo e salve. Chaves não definidas usam o tema padrão."
+}

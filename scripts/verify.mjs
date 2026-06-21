@@ -79,7 +79,7 @@ for (const file of files) {
     else if (toml !== true && toml !== null) bad(`${rel}: TOML parse error — ${toml}`);
     else if (toml === null) bad(`${rel}: cannot validate TOML (python3 with tomllib required)`);
     else ok(`${rel} (toml, parsed)`);
-  } else if (base.endsWith(".xml") || base.endsWith(".icls")) {
+  } else if (base.endsWith(".xml") || base.endsWith(".icls") || base.endsWith(".terminal")) {
     const xml = pyParse("xml", file);
     if (xml === true || xml === null) ok(`${rel} (xml${xml === true ? ", parsed" : ", skipped"})`);
     else bad(`${rel}: invalid XML — ${xml}`);

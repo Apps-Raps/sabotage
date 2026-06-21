@@ -1,0 +1,4 @@
+{
+  "en": "## Installation\nA syntax theme for Atom (works as a package or a pasted stylesheet).\n\n1. Download `sabotage-dark.less`.\n2. Quick way: open **Atom → Stylesheet…** and paste the contents.\n3. As a package: create `~/.atom/packages/sabotage-syntax/` with a `package.json` and put this file under `styles/`, then enable it in **Settings → Themes → Syntax Theme**.",
+  "pt": "## Instalação\nUm tema de sintaxe para o Atom (funciona como pacote ou folha de estilo colada).\n\n1. Baixe `sabotage-dark.less`.\n2. Jeito rápido: abra **Atom → Stylesheet…** e cole o conteúdo.\n3. Como pacote: crie `~/.atom/packages/sabotage-syntax/` com um `package.json` e coloque este arquivo em `styles/`, depois ative em **Settings → Themes → Syntax Theme**."
+}

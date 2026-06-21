@@ -1,0 +1,4 @@
+{
+  "en": "## Installation\nSabotage syntax colors for **PSReadLine** (PowerShell 7 or Windows PowerShell 5.1 + module).\n\n1. Download `sabotage-dark.ps1` to your home folder.\n2. Add to your `$PROFILE`:\n```powershell\n. \"$HOME\\sabotage-dark.ps1\"\n```\n3. Open a new session. Pair it with the Sabotage **Windows Terminal** scheme for a fully themed prompt.",
+  "pt": "## Instalação\nCores de sintaxe Sabotage para o **PSReadLine** (PowerShell 7 ou Windows PowerShell 5.1 + módulo).\n\n1. Baixe `sabotage-dark.ps1` para a sua pasta de usuário.\n2. Adicione ao seu `$PROFILE`:\n```powershell\n. \"$HOME\\sabotage-dark.ps1\"\n```\n3. Abra uma nova sessão. Combine com o esquema do **Windows Terminal** para um prompt totalmente temático."
+}

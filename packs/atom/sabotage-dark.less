@@ -1,0 +1,61 @@
+// Sabotage — Dark
+// Sabotage syntax theme for Atom.
+// Use as a syntax-theme package: place in styles/ as colors.less + base.less,
+// or paste into your stylesheet (Atom → Stylesheet…).
+
+// ── Syntax variables ─────────────────────────────────────────────────────────
+@syntax-text-color:           #e8e8ea;
+@syntax-cursor-color:         #dd5040;
+@syntax-selection-color:      #2a3a52;
+@syntax-selection-flash-color:#dd5040;
+@syntax-background-color:     #0d0e11;
+
+@syntax-wrap-guide-color:        #2a2c36;
+@syntax-indent-guide-color:      #2a2c36;
+@syntax-invisible-character-color:#2a2c36;
+
+@syntax-result-marker-color:         #5a5b63;
+@syntax-result-marker-color-selected:#dd5040;
+
+@syntax-gutter-text-color:               #5a5b63;
+@syntax-gutter-text-color-selected:      #e8e8ea;
+@syntax-gutter-background-color:         #0d0e11;
+@syntax-gutter-background-color-selected:#22242e;
+
+@syntax-color-renamed:  #4dd9ff;
+@syntax-color-added:    #2ecc71;
+@syntax-color-modified: #ffd166;
+@syntax-color-removed:  #ff5555;
+
+// ── Editor + tokens ──────────────────────────────────────────────────────────
+atom-text-editor {
+  background-color: @syntax-background-color;
+  color: @syntax-text-color;
+
+  .line.cursor-line { background-color: #22242e; }
+  .cursor { border-color: @syntax-cursor-color; }
+  .selection .region { background-color: @syntax-selection-color; }
+
+  .syntax--comment { color: #5a5b63; font-style: italic; }
+  .syntax--string { color: #2ecc71; }
+  .syntax--string.syntax--regexp { color: #ff69b4; }
+  .syntax--constant.syntax--character.syntax--escape { color: #ff8a44; }
+  .syntax--constant.syntax--numeric { color: #ff8a44; }
+  .syntax--constant { color: #ff8a44; }
+  .syntax--keyword { color: #dd5040; }
+  .syntax--keyword.syntax--operator { color: #ff69b4; }
+  .syntax--storage { color: #dd5040; }
+  .syntax--storage.syntax--type { color: #ffd166; }
+  .syntax--variable { color: #e8e8ea; }
+  .syntax--variable.syntax--parameter { color: #e8e8ea; }
+  .syntax--entity.syntax--name.syntax--function { color: #4dd9ff; }
+  .syntax--support.syntax--function { color: #4dd9ff; }
+  .syntax--entity.syntax--name.syntax--type,
+  .syntax--entity.syntax--name.syntax--class,
+  .syntax--support.syntax--type,
+  .syntax--support.syntax--class { color: #ffd166; }
+  .syntax--entity.syntax--name.syntax--tag { color: #dd5040; }
+  .syntax--entity.syntax--other.syntax--attribute-name { color: #ffd166; }
+  .syntax--punctuation { color: #a8a9b0; }
+  .syntax--invalid.syntax--illegal { color: #0d0e11; background-color: #ff5555; }
+}

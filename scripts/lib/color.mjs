@@ -138,3 +138,16 @@ export function slackString(v) {
     v.extra.error,   // Mention Badge
   ].map(hex).join(",");
 }
+
+// ── mixing ────────────────────────────────────────────────────────────────────
+/** Mix two hex colors in sRGB. t=0 → a, t=1 → b. */
+export function mix(a, b, t) {
+  const ca = parse(a), cb = parse(b);
+  const m = (x, y) => Math.round(x + (y - x) * t);
+  const h = (v) => v.toString(16).padStart(2, "0");
+  return "#" + h(m(ca.r, cb.r)) + h(m(ca.g, cb.g)) + h(m(ca.b, cb.b));
+}
+/** Darken toward black by t (0–1). */
+export function darken(c, t) { return mix(c, "#000000", t); }
+/** Lighten toward white by t (0–1). */
+export function lighten(c, t) { return mix(c, "#ffffff", t); }

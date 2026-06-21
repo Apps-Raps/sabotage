@@ -1,0 +1,4 @@
+{
+  "en": "## Installation\n1. Download `sabotage-dark.properties`.\n2. Save it as `~/.termux/colors.properties`:\n```sh\nmkdir -p ~/.termux && cp sabotage-dark.properties ~/.termux/colors.properties\n```\n3. Apply with `termux-reload-settings`.",
+  "pt": "## Instalação\n1. Baixe `sabotage-dark.properties`.\n2. Salve como `~/.termux/colors.properties`:\n```sh\nmkdir -p ~/.termux && cp sabotage-dark.properties ~/.termux/colors.properties\n```\n3. Aplique com `termux-reload-settings`."
+}

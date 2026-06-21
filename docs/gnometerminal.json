@@ -1,0 +1,4 @@
+{
+  "en": "## Installation\nThe download is a script that creates a GNOME Terminal profile via `dconf`.\n\n1. Download `sabotage-dark.sh`.\n2. Run it: `bash sabotage-dark.sh` (needs `dconf` and `uuidgen`).\n3. Open **Preferences**, pick the new **Sabotage** profile, and set it as default if you like.",
+  "pt": "## Instalação\nO download é um script que cria um perfil do GNOME Terminal via `dconf`.\n\n1. Baixe `sabotage-dark.sh`.\n2. Execute: `bash sabotage-dark.sh` (requer `dconf` e `uuidgen`).\n3. Abra as **Preferências**, escolha o novo perfil **Sabotage** e defina como padrão se quiser."
+}
