@@ -2,7 +2,7 @@
   "name": "Sabotage",
   "version": "1.0.0",
   "homepage": "https://sabotage.nosso.top",
-  "generated": "2026-06-21",
+  "generated": "2026-06-24",
   "categories": [
     "editor",
     "terminal",
@@ -10,7 +10,7 @@
     "chat",
     "web"
   ],
-  "count": 27,
+  "count": 28,
   "apps": [
     {
       "id": "atom",
@@ -287,6 +287,18 @@
       },
       "docs": "docs/zsh.json",
       "icon": "assets/icons/zsh.svg"
+    },
+    {
+      "id": "beeper",
+      "name": "Beeper",
+      "category": "chat",
+      "ext": "css",
+      "files": {
+        "dark": "packs/beeper/sabotage-dark.css",
+        "light": "packs/beeper/sabotage-light.css"
+      },
+      "docs": "docs/beeper.json",
+      "icon": "assets/icons/beeper.svg"
     },
     {
       "id": "discord",

@@ -237,6 +237,20 @@ source ~/.config/zsh/sabotage-dark.zsh
 2. No Slack abra **Preferences → Themes**, role até o fim e clique em **Create a custom theme**.
 3. Cole a string no campo **copy & paste**.`,
   },
+  beeper: {
+    en: `## Installation
+For the **Beeper** desktop app (Beeper 4.x).
+
+1. Download \`sabotage-dark.css\` (and/or the light variant).
+2. Open **Settings → Appearance → Custom CSS**.
+3. Paste the file contents into the Custom CSS box and apply. Reopen a chat to see it take effect.`,
+    pt: `## Instalação
+Para o app desktop do **Beeper** (Beeper 4.x).
+
+1. Baixe \`sabotage-dark.css\` (e/ou a variante clara).
+2. Abra **Settings → Appearance → Custom CSS**.
+3. Cole o conteúdo do arquivo na caixa de Custom CSS e aplique. Reabra uma conversa para ver o efeito.`,
+  },
   discord: {
     en: `## Installation
 Requires **BetterDiscord** (or a compatible client mod like Vencord).
